@@ -1,0 +1,235 @@
+header {
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 95px;
+  font-family: garamond;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+nav,
+ul {
+  background-color: black;
+  font-size: 18px;
+  display: inline;
+  margin-right: 1%;
+  margin-left: 1%;
+  align-items: center;
+}
+
+nav,
+ul:hover {
+  color: #bfbfbf;
+  cursor: pointer;
+}
+
+nav,
+a {
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+Footer {
+  background-color: black;
+  margin-top: 1%;
+  height: 50px;
+  width: 100%;
+}
+
+.copyright {
+  color: white;
+  float: right;
+  margin-top: 0%;
+}
+
+.Features {
+  background-color: rgba(13, 13, 13);
+  width: 90%;
+  height: 15%;
+  margin: 1%;
+  margin-left: 5%;
+  padding: 0%;
+}
+
+.book,
+.puzzle,
+.sound {
+  display: flex;
+}
+
+h3 {
+  color: white;
+  font-size: 30px;
+  margin-left: 6%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bookP,
+.puzzleP,
+.soundP {
+  color: white;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2px 2px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+}
+
+.bookP {
+  margin-top: 20px;
+}
+
+#Puzzle,
+#Book,
+#Sound {
+  width: 3%;
+  height: 3%;
+  margin-top: 1%;
+  padding: 0%;
+  display: inline-block;
+}
+
+#Puzzle,
+#Sound {
+  margin-top: 20px;
+}
+
+.book {
+  margin-left: 8%;
+}
+
+.puzzle {
+  margin-left: 10%;
+}
+
+.sound {
+  margin-left: 12%;
+}
+
+.section1,
+.section2,
+.section3 {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 90%;
+  margin: 2% auto;
+}
+
+img {
+  height: 400px;
+}
+
+.P1, .P2, .P3 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 3%;
+}
+
+.videos {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.video1 {
+  width: 45%;
+  height: 50%;
+  float: left;
+  margin-right: 8%;
+  border: 5px solid white;
+}
+
+.video2 {
+  width: 45%;
+  height: 50%;
+  float: left;
+  border: 5px solid white;
+}
+
+@media (max-width:767px) {
+  #wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  #home1 {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+
+  #home2 {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+}
+
+h2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin: 0%;
+}
+
+.VideoSection {
+  margin-top: 28%;
+}
+
+.backVideo {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.container {
+  width: 1200px;
+  height: 830px;
+  overflow: hidden;
+  margin-top: 10%;
+  margin-left: 17%;
+  margin-right: 5%;
+  margin-bottom: 0%;
+  padding: 0%;
+}
+
+.zoomImage {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  transition: 8s;
+}
+
+.zoomImage:hover {
+  transform: scale(1.6);
+}
+
+#btn-back-to-top {
+  background-color: grey;
+  font-size:16px;
+  width:125px;
+  height: 40px;
+  color:white;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  display: none;
+}
+

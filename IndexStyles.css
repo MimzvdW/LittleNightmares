@@ -1,0 +1,178 @@
+header {
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 95px;
+  font-family: garamond;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+
+nav,
+ul {
+  background-color: black;
+  font-size: 18px;
+  display: inline;
+  margin-right: 1%;
+  margin-left: 1%;
+  align-items: center;
+}
+
+nav,
+ul:hover {
+  color: #bfbfbf;
+  cursor: pointer;
+}
+
+nav,
+a {
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+Footer {
+  background-color: black;
+  margin-top: 1%;
+  height: 50px;
+  width: 100%;
+}
+
+.copyright {
+  color: white;
+  float: right;
+  margin-top: 0%;
+}
+
+.VideoSection {
+  flex-basis: 70%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.backVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .backVideo {
+    width: 100%;
+    height: 80%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .backVideo {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#Six {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 10px;
+  top: 190px;
+  opacity: .5;
+}
+
+#Janitor {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  left: 900px;
+  top: 190px;
+  opacity: .5;
+  animation: JanitorMove 8s infinite;
+  animation-delay: 3s;
+}
+
+@keyframes JanitorMove {
+  from {
+    left: 900px;
+  }
+
+  to {
+    left: 170px
+  }
+}
+
+#BottomImage {
+  width: 100%;
+  height: auto;
+  opacity: .5;
+  position: relative;
+}
+
+#Contact {
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 0;
+  z-index: 2;
+}
+
+.ImageSection {
+  margin-top: 198px;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.P1,
+.P2,
+.P3 {
+  color: white;
+  font-size: 25px;
+  padding-top: 0%;
+  z-index: 2;
+}
+
+.P1 {
+  position: absolute;
+  top: 900px;
+  left: 100px;
+}
+
+.P2 {
+  position: absolute;
+  top: 1000px;
+  left: 200px;
+}
+
+.P3 {
+  position: absolute;
+  top: 1100px;
+  left: 300px;
+}
+
+audio {
+  width: 15%;
+  margin-left: 85%;
+}
+
+#btn-back-to-top {
+  background-color: grey;
+  font-size: 16px;
+  width: 125px;
+  height: 40px;
+  color: white;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  display: none;
+}
